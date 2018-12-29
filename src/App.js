@@ -41,6 +41,9 @@ const Container = styled.div`
   height: 100vh;
   width: 100%;
   background-color: pink;
+  ${Card} {
+    background-color: red;
+  }
 `;
 
 export default App;
